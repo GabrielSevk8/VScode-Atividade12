@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca&family=Manrope:wght@600&family=Martian+Mono:wght@300&family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@300;500&family=Share+Tech&display=swap');
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'manrope', sans-serif;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 800px;
+    height: 400px;
+    border-radius: 3%;
+    background-color: hsl(217, 19%, 24%);
+    margin-top: 20px;
+}
+
+.title{
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.frase{
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.circle-dice{
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    margin-left: 370px;
+    border-radius: 50%;
+    margin-top: 62px;
+}
+
+.dice img{
+    margin: 18px;
+}
